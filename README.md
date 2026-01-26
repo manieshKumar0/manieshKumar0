@@ -1,3 +1,8 @@
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+<h1 align="center">Hi 👋, I'm Maniesh</h1>
+
 # 💫 About Me:
 🔭 I'm currently working on a FullStack Project.<br>🌱 I'm currently learning FullStack Web Development.<br>👯 I'm looking to collaborate on Open Sourece Projects.<br>💬 Ask me about HTML, CSS, JavaScript, React, Tailwind, MySQL,<br>📫 How to reach me manieshkumarr0@gmail.com
 
@@ -17,8 +22,6 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=manieshKumar0&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=manieshKumar0&limit=5&theme=gruvbox_light&combine_all_yearly_contributions=true)
