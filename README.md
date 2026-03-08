@@ -3,6 +3,10 @@
 
 <h1 align="center">Hi 👋, I'm Maniesh</h1>
 
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;React+%7C+Tailwind+%7C+MySQL;Automation+with+n8n;Open+Source+Contributor" />
+</p>
+
 # 💫 About Me:
 🔭 I'm currently working on a FullStack Project.<br>🌱 I'm currently learning FullStack Web Development.<br>👯 I'm looking to collaborate on Open Sourece Projects.<br>💬 Ask me about HTML, CSS, JavaScript, React, Tailwind, MySQL,<br>📫 How to reach me manieshkumarr0@gmail.com
 
