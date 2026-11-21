@@ -132,10 +132,6 @@ def load_live(login):
 
 HERO = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewBox="0 0 800 150" role="img" aria-label="__ALT__">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#353535"/>
-      <stop offset="1" stop-color="#284B63"/>
-    </linearGradient>
     <radialGradient id="halo" cx="82%" cy="35%" r="45%">
       <stop offset="0" stop-color="#3C6E71" stop-opacity=".6"/>
       <stop offset="1" stop-color="#3C6E71" stop-opacity="0"/>
@@ -148,8 +144,8 @@ HERO = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewB
     .tw2{animation:tw 5.5s ease-in-out infinite;animation-delay:1.3s}
     @keyframes tw{0%,100%{opacity:.4}50%{opacity:1}}
   </style>
-  <path d="M1,1 H781 L799,19 V149 H19 L1,131 Z" fill="url(#bg)"/>
-  <path d="M1,1 H781 L799,19 V149 H19 L1,131 Z" fill="url(#halo)" stroke="#D9D9D9" stroke-opacity=".35"/>
+  <path d="M1,1 H781 L799,19 V149 H19 L1,131 Z" fill="none"/>
+  <path d="M1,1 H781 L799,19 V149 H19 L1,131 Z" fill="none" stroke="#D9D9D9" stroke-opacity=".35"/>
   <text x="36" y="38" class="mono" font-size="9" letter-spacing="3" fill="#8fc9cb">PROFILE · 001 · FRONTEND / FULL-STACK</text>
   <text x="36" y="84" class="disp" font-size="__FS__" font-weight="700" letter-spacing="__LS__" fill="#FFFFFF">__NAME__</text>
   <rect x="36" y="102" width="26" height="2" fill="#3C6E71"/>
@@ -170,16 +166,12 @@ HERO = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewB
 
 STATS = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="88" viewBox="0 0 800 88" role="img" aria-label="__ALT__">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#353535"/>
-      <stop offset="1" stop-color="#284B63"/>
-    </linearGradient>
   </defs>
   <style>
     .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace}
     .disp{font-family:'Space Grotesk','Avenir Next','Segoe UI',Helvetica,Arial,sans-serif}
   </style>
-  <path d="M1,1 H781 L799,19 V87 H19 L1,69 Z" fill="url(#bg)" stroke="#D9D9D9" stroke-opacity=".35"/>
+  <path d="M1,1 H781 L799,19 V87 H19 L1,69 Z" fill="none" stroke="#D9D9D9" stroke-opacity=".35"/>
   <g stroke="#D9D9D9" stroke-opacity=".18">
     <line x1="172" y1="22" x2="172" y2="66"/><line x1="324" y1="22" x2="324" y2="66"/>
     <line x1="476" y1="22" x2="476" y2="66"/><line x1="628" y1="22" x2="628" y2="66"/>
@@ -195,10 +187,6 @@ STATS = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="88" viewB
 
 GALAXY = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-label="Repo galaxy for __LOGIN__">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#353535"/>
-      <stop offset="1" stop-color="#284B63"/>
-    </linearGradient>
     <radialGradient id="core" cx="50%" cy="50%" r="50%">
       <stop offset="0" stop-color="#8fc9cb" stop-opacity=".7"/>
       <stop offset=".4" stop-color="#3C6E71" stop-opacity=".35"/>
@@ -217,7 +205,7 @@ GALAXY = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" vie
     @keyframes pulse{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.4);opacity:0}}
   </style>
 
-  <path d="M1,1 H781 L799,19 V319 H19 L1,301 Z" fill="url(#bg)" stroke="#D9D9D9" stroke-opacity=".35"/>
+  <path d="M1,1 H781 L799,19 V319 H19 L1,301 Z" fill="none" stroke="#D9D9D9" stroke-opacity=".35"/>
 
   <text x="36" y="50" class="mono" font-size="9" letter-spacing="3" fill="#8fc9cb">01 / REPO GALAXY</text>
   <text x="36" y="86" class="disp" font-size="24" font-weight="700" fill="#FFFFFF">@__LOGIN__</text>
@@ -270,15 +258,11 @@ __REPOSTARS__
 
 PROJECTS = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="__H__" viewBox="0 0 800 __H__" role="img" aria-label="__ALT__">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#353535"/>
-      <stop offset="1" stop-color="#284B63"/>
-    </linearGradient>
   </defs>
   <style>
     .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace}
     .disp{font-family:'Space Grotesk','Avenir Next','Segoe UI',Helvetica,Arial,sans-serif}
-    .plate{fill:#000000;fill-opacity:.24;stroke:#D9D9D9;stroke-opacity:.28}
+    .plate{fill:#FFFFFF;fill-opacity:.04;stroke:#D9D9D9;stroke-opacity:.28}
     .no{font-size:8.5px;letter-spacing:2px;fill:#8fc9cb}
     .ttl{font-size:17px;font-weight:700;letter-spacing:.3px;fill:#FFFFFF}
     .dsc{font-size:9.5px;fill:#D9D9D9;fill-opacity:.75}
@@ -292,7 +276,7 @@ PROJECTS = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="__H__"
     .cur{animation:b 1.1s steps(1) infinite}
     @keyframes b{50%{opacity:0}}
   </style>
-  <path d="M1,1 H781 L799,19 V__HB__ H19 L1,__HC__ Z" fill="url(#bg)" stroke="#D9D9D9" stroke-opacity=".35"/>
+  <path d="M1,1 H781 L799,19 V__HB__ H19 L1,__HC__ Z" fill="none" stroke="#D9D9D9" stroke-opacity=".35"/>
   <text x="36" y="34" class="mono" font-size="9" letter-spacing="3" fill="#8fc9cb">02 / CONSTELLATIONS</text>
   <text x="764" y="34" class="mono" font-size="9" letter-spacing="2" text-anchor="end" fill="#D9D9D9" fill-opacity=".7">__COUNT__</text>
   <line x1="24" y1="46" x2="776" y2="46" stroke="#D9D9D9" stroke-opacity=".25"/>
@@ -302,10 +286,6 @@ __PLATES__
 
 LANGUAGES = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="250" viewBox="0 0 800 250" role="img" aria-label="__ALT__">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#353535"/>
-      <stop offset="1" stop-color="#284B63"/>
-    </linearGradient>
     <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
       <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".3"/>
@@ -321,7 +301,7 @@ LANGUAGES = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="250" 
     .cur{animation:b 1.1s steps(1) infinite}
     @keyframes b{50%{opacity:0}}
   </style>
-  <path d="M1,1 H781 L799,19 V249 H19 L1,231 Z" fill="url(#bg)" stroke="#D9D9D9" stroke-opacity=".35"/>
+  <path d="M1,1 H781 L799,19 V249 H19 L1,231 Z" fill="none" stroke="#D9D9D9" stroke-opacity=".35"/>
   <text x="36" y="34" class="mono" font-size="9" letter-spacing="3" fill="#8fc9cb">03 / SPECTRUM</text>
   <text x="764" y="34" class="mono" font-size="9" letter-spacing="1" text-anchor="end" fill="#D9D9D9" fill-opacity=".7">&gt; stack.scan<tspan class="cur">_</tspan></text>
   <line x1="24" y1="46" x2="776" y2="46" stroke="#D9D9D9" stroke-opacity=".25"/>
@@ -347,10 +327,6 @@ __LEGEND__
 
 TRANSMISSION = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120" role="img" aria-label="Open a channel: GitHub @__LOGIN__">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#353535"/>
-      <stop offset="1" stop-color="#284B63"/>
-    </linearGradient>
   </defs>
   <style>
     .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace}
@@ -359,7 +335,7 @@ TRANSMISSION = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="12
     .w2{animation-delay:1.2s}.w3{animation-delay:2.4s}
     @keyframes wave{0%{transform:scale(1);opacity:.9}100%{transform:scale(5);opacity:0}}
   </style>
-  <path d="M1,1 H781 L799,19 V119 H19 L1,101 Z" fill="url(#bg)" stroke="#D9D9D9" stroke-opacity=".35"/>
+  <path d="M1,1 H781 L799,19 V119 H19 L1,101 Z" fill="none" stroke="#D9D9D9" stroke-opacity=".35"/>
   <circle class="wave" cx="96" cy="60" r="8"/>
   <circle class="wave w2" cx="96" cy="60" r="8"/>
   <circle class="wave w3" cx="96" cy="60" r="8"/>
@@ -373,6 +349,25 @@ TRANSMISSION = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="12
   <text x="742" y="68" class="disp" font-size="18" fill="#FFFFFF" text-anchor="middle">→</text>
 </svg>
 """
+
+
+# Panels are transparent (GitHub's own background shows through). Default colours are tuned for dark
+# themes; this block re-colours text and lines for light themes.
+LIGHT = """    @media (prefers-color-scheme: light){
+      [fill="#FFFFFF"]{fill:#1f2328}
+      [fill="#D9D9D9"]{fill:#57606a}
+      [fill="#8fc9cb"]{fill:#1f6f73}
+      [stroke="#D9D9D9"]{stroke:#6e7781}
+      [stroke="#FFFFFF"]{stroke:#6e7781}
+      [stroke="#353535"]{stroke:#FFFFFF}
+      .ttl,.pct{fill:#1f2328}
+      .dsc,.meta,.cap,.lang{fill:#57606a}
+      .no{fill:#1f6f73}
+      .track,.tick{stroke:#6e7781}
+      .plate{fill:#000000;fill-opacity:.03;stroke:#6e7781}
+      .wave{stroke:#1f6f73}
+    }
+  """
 
 
 def fill(tpl, **kw):
@@ -579,7 +574,7 @@ def main():
     os.makedirs(ASSETS, exist_ok=True)
     for name, svg in files.items():
         with open(os.path.join(ASSETS, name), "w", encoding="utf-8", newline="\n") as f:
-            f.write(svg)
+            f.write(svg.replace("</style>", LIGHT + "</style>", 1))
     print(f"Wrote {len(files)} SVGs: {d['repo_count']} repos, {stars} stars, "
           f"{d['contributions']} contributions, streak {d['streak']}d, {d['followers']} followers")
 
