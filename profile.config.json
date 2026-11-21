@@ -1,5 +1,52 @@
 {
   "login": "manieshKumar0",
   "tagline": "Frontend or full-stack engineer",
-  "exclude": []
+  "exclude": [],
+  "stack": [
+    {
+      "group": "Languages",
+      "items": [
+        {"name": "Python", "icon": "python"},
+        {"name": "C++", "icon": "cplusplus"},
+        {"name": "JavaScript", "icon": "javascript"},
+        {"name": "TypeScript", "icon": "typescript"}
+      ]
+    },
+    {
+      "group": "Data & ML",
+      "items": [
+        {"name": "NumPy", "icon": "numpy"},
+        {"name": "Pandas", "icon": "pandas"},
+        {"name": "scikit-learn", "icon": "scikitlearn"},
+        {"name": "Jupyter", "icon": "jupyter"}
+      ]
+    },
+    {
+      "group": "Frontend",
+      "items": [
+        {"name": "HTML5", "icon": "html5"},
+        {"name": "CSS", "icon": "css"},
+        {"name": "React", "icon": "react"},
+        {"name": "Tailwind", "icon": "tailwindcss"}
+      ]
+    },
+    {
+      "group": "Backend & Data",
+      "items": [
+        {"name": "Node.js", "icon": "nodedotjs"},
+        {"name": "Express", "icon": "express"},
+        {"name": "MySQL", "icon": "mysql"},
+        {"name": "MongoDB", "icon": "mongodb"}
+      ]
+    },
+    {
+      "group": "Tools",
+      "items": [
+        {"name": "Git", "icon": "git"},
+        {"name": "GitHub", "icon": "github"},
+        {"name": "VS Code", "icon": "visualstudiocode"},
+        {"name": "Linux", "icon": "linux"}
+      ]
+    }
+  ]
 }
