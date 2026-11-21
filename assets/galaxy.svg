@@ -33,6 +33,8 @@
   </style>
 
   <path d="M1,1 H781 L799,19 V319 H19 L1,301 Z" fill="none" stroke="#D9D9D9" stroke-opacity=".35"/>
+
+  <text x="36" y="50" class="mono" font-size="9" letter-spacing="3" fill="#8fc9cb">01 / REPO GALAXY</text>
   <text x="36" y="86" class="disp" font-size="24" font-weight="700" fill="#FFFFFF">@manieshKumar0</text>
   <text x="36" y="110" class="mono" font-size="10.5" fill="#D9D9D9">4 repositories · 0 stars</text>
   <rect x="36" y="124" width="26" height="2" fill="#3C6E71"/>
