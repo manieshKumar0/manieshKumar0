@@ -1,21 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="88" viewBox="0 0 800 88" role="img" aria-label="4 public repositories, 0 stars, 449 contributions in the last year, longest streak 9 days, 0 followers">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="88" viewBox="0 0 800 88" role="img" aria-label="4 public repositories, 0 stars, 455 contributions in the last year, longest streak 9 days, 0 followers">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#353535"/>
-      <stop offset="1" stop-color="#284B63"/>
-    </linearGradient>
   </defs>
   <style>
     .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace}
     .disp{font-family:'Space Grotesk','Avenir Next','Segoe UI',Helvetica,Arial,sans-serif}
+      @media (prefers-color-scheme: light){
+      [fill="#FFFFFF"]{fill:#1f2328}
+      [fill="#D9D9D9"]{fill:#57606a}
+      [fill="#8fc9cb"]{fill:#1f6f73}
+      [stroke="#D9D9D9"]{stroke:#6e7781}
+      [stroke="#FFFFFF"]{stroke:#6e7781}
+      [stroke="#353535"]{stroke:#FFFFFF}
+      .ttl,.pct{fill:#1f2328}
+      .dsc,.meta,.cap,.lang{fill:#57606a}
+      .no{fill:#1f6f73}
+      .track,.tick{stroke:#6e7781}
+      .plate{fill:#000000;fill-opacity:.03;stroke:#6e7781}
+      .wave{stroke:#1f6f73}
+    }
   </style>
-  <path d="M1,1 H781 L799,19 V87 H19 L1,69 Z" fill="url(#bg)" stroke="#D9D9D9" stroke-opacity=".35"/>
+  <path d="M1,1 H781 L799,19 V87 H19 L1,69 Z" fill="none" stroke="#D9D9D9" stroke-opacity=".35"/>
   <g stroke="#D9D9D9" stroke-opacity=".18">
     <line x1="172" y1="22" x2="172" y2="66"/><line x1="324" y1="22" x2="324" y2="66"/>
     <line x1="476" y1="22" x2="476" y2="66"/><line x1="628" y1="22" x2="628" y2="66"/>
   </g>
   <g class="disp" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">
-    <text x="96" y="47">4</text><text x="248" y="47">0</text><text x="400" y="47">449</text><text x="552" y="47">9d</text><text x="704" y="47">0</text>
+    <text x="96" y="47">4</text><text x="248" y="47">0</text><text x="400" y="47">455</text><text x="552" y="47">9d</text><text x="704" y="47">0</text>
   </g>
   <g class="mono" font-size="8" letter-spacing="2" fill="#8fc9cb" text-anchor="middle">
     <text x="96" y="67">REPOSITORIES</text><text x="248" y="67">STARS</text><text x="400" y="67">CONTRIBUTIONS · 1Y</text><text x="552" y="67">LONGEST STREAK</text><text x="704" y="67">FOLLOWERS</text>

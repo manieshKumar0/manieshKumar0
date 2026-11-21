@@ -1,9 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120" role="img" aria-label="Open a channel: GitHub @manieshKumar0">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#353535"/>
-      <stop offset="1" stop-color="#284B63"/>
-    </linearGradient>
   </defs>
   <style>
     .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace}
@@ -11,8 +7,22 @@
     .wave{fill:none;stroke:#8fc9cb;stroke-width:1.4;transform-box:fill-box;transform-origin:center;animation:wave 3.6s ease-out infinite}
     .w2{animation-delay:1.2s}.w3{animation-delay:2.4s}
     @keyframes wave{0%{transform:scale(1);opacity:.9}100%{transform:scale(5);opacity:0}}
+      @media (prefers-color-scheme: light){
+      [fill="#FFFFFF"]{fill:#1f2328}
+      [fill="#D9D9D9"]{fill:#57606a}
+      [fill="#8fc9cb"]{fill:#1f6f73}
+      [stroke="#D9D9D9"]{stroke:#6e7781}
+      [stroke="#FFFFFF"]{stroke:#6e7781}
+      [stroke="#353535"]{stroke:#FFFFFF}
+      .ttl,.pct{fill:#1f2328}
+      .dsc,.meta,.cap,.lang{fill:#57606a}
+      .no{fill:#1f6f73}
+      .track,.tick{stroke:#6e7781}
+      .plate{fill:#000000;fill-opacity:.03;stroke:#6e7781}
+      .wave{stroke:#1f6f73}
+    }
   </style>
-  <path d="M1,1 H781 L799,19 V119 H19 L1,101 Z" fill="url(#bg)" stroke="#D9D9D9" stroke-opacity=".35"/>
+  <path d="M1,1 H781 L799,19 V119 H19 L1,101 Z" fill="none" stroke="#D9D9D9" stroke-opacity=".35"/>
   <circle class="wave" cx="96" cy="60" r="8"/>
   <circle class="wave w2" cx="96" cy="60" r="8"/>
   <circle class="wave w3" cx="96" cy="60" r="8"/>

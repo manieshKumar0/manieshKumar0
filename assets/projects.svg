@@ -1,14 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="362" viewBox="0 0 800 362" role="img" aria-label="Projects: MalwareGuard-XAI, manieshKumar0, PORTFOLIO, LearningProjects">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="362" viewBox="0 0 800 362" role="img" aria-label="Projects: manieshKumar0, MalwareGuard-XAI, PORTFOLIO, LearningProjects">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#353535"/>
-      <stop offset="1" stop-color="#284B63"/>
-    </linearGradient>
   </defs>
   <style>
     .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace}
     .disp{font-family:'Space Grotesk','Avenir Next','Segoe UI',Helvetica,Arial,sans-serif}
-    .plate{fill:#000000;fill-opacity:.24;stroke:#D9D9D9;stroke-opacity:.28}
+    .plate{fill:#FFFFFF;fill-opacity:.04;stroke:#D9D9D9;stroke-opacity:.28}
     .no{font-size:8.5px;letter-spacing:2px;fill:#8fc9cb}
     .ttl{font-size:17px;font-weight:700;letter-spacing:.3px;fill:#FFFFFF}
     .dsc{font-size:9.5px;fill:#D9D9D9;fill-opacity:.75}
@@ -21,31 +17,46 @@
     .cap{font-size:6.5px;letter-spacing:1.5px;fill:#D9D9D9;fill-opacity:.6;text-anchor:middle}
     .cur{animation:b 1.1s steps(1) infinite}
     @keyframes b{50%{opacity:0}}
+      @media (prefers-color-scheme: light){
+      [fill="#FFFFFF"]{fill:#1f2328}
+      [fill="#D9D9D9"]{fill:#57606a}
+      [fill="#8fc9cb"]{fill:#1f6f73}
+      [stroke="#D9D9D9"]{stroke:#6e7781}
+      [stroke="#FFFFFF"]{stroke:#6e7781}
+      [stroke="#353535"]{stroke:#FFFFFF}
+      .ttl,.pct{fill:#1f2328}
+      .dsc,.meta,.cap,.lang{fill:#57606a}
+      .no{fill:#1f6f73}
+      .track,.tick{stroke:#6e7781}
+      .plate{fill:#000000;fill-opacity:.03;stroke:#6e7781}
+      .wave{stroke:#1f6f73}
+    }
   </style>
-  <path d="M1,1 H781 L799,19 V361 H19 L1,343 Z" fill="url(#bg)" stroke="#D9D9D9" stroke-opacity=".35"/>
+  <path d="M1,1 H781 L799,19 V361 H19 L1,343 Z" fill="none" stroke="#D9D9D9" stroke-opacity=".35"/>
   <text x="36" y="34" class="mono" font-size="9" letter-spacing="3" fill="#8fc9cb">02 / CONSTELLATIONS</text>
   <text x="764" y="34" class="mono" font-size="9" letter-spacing="2" text-anchor="end" fill="#D9D9D9" fill-opacity=".7">4 PLATES</text>
   <line x1="24" y1="46" x2="776" y2="46" stroke="#D9D9D9" stroke-opacity=".25"/>
   <path class="plate" d="M24,62 H376 L390,76 V198 H24 Z"/>
   <rect x="24" y="62" width="3" height="136" fill="#4f9a9e"/>
   <text x="42" y="86" class="mono no">PLATE 01</text>
-  <text x="42" y="114" class="disp ttl">MalwareGuard-XAI<tspan class="cur" fill="#8fc9cb"> _</tspan></text>
+  <text x="42" y="114" class="disp ttl">manieshKumar0<tspan class="cur" fill="#8fc9cb"> _</tspan></text>
   <text x="42" y="134" class="mono dsc">No description provided.</text>
   <rect x="42" y="152" width="7" height="7" fill="#4f9a9e"/><text x="56" y="159" class="mono lang">PYTHON</text>
-  <text x="42" y="183" class="mono meta">★ 0  ·  updated 29d ago</text>
+  <text x="42" y="183" class="mono meta">★ 0  ·  updated today</text>
   <g transform="translate(342 138)">
     <circle r="33" class="tick"/><circle r="24" class="track"/><circle r="24" class="arc" stroke="#4f9a9e" stroke-dasharray="150.8 150.8" transform="rotate(-90)"/>
     <text y="3.5" class="mono pct">100%</text><text y="48" class="mono cap">LANG SHARE</text>
   </g>
   <path class="plate" d="M410,62 H762 L776,76 V198 H410 Z"/>
-  <rect x="410" y="62" width="3" height="136" fill="#6f9bb9"/>
+  <rect x="410" y="62" width="3" height="136" fill="#4f9a9e"/>
   <text x="428" y="86" class="mono no">PLATE 02</text>
-  <text x="428" y="114" class="disp ttl">manieshKumar0<tspan class="cur" fill="#8fc9cb"> _</tspan></text>
+  <text x="428" y="114" class="disp ttl">MalwareGuard-XAI<tspan class="cur" fill="#8fc9cb"> _</tspan></text>
   <text x="428" y="134" class="mono dsc">No description provided.</text>
-  <text x="428" y="183" class="mono meta">★ 0  ·  updated 1mo ago</text>
+  <rect x="428" y="152" width="7" height="7" fill="#4f9a9e"/><text x="442" y="159" class="mono lang">PYTHON</text>
+  <text x="428" y="183" class="mono meta">★ 0  ·  updated 29d ago</text>
   <g transform="translate(728 138)">
-    <circle r="33" class="tick"/><circle r="24" class="track"/>
-    <text y="3.5" class="mono pct">—</text><text y="48" class="mono cap">NO CODE</text>
+    <circle r="33" class="tick"/><circle r="24" class="track"/><circle r="24" class="arc" stroke="#4f9a9e" stroke-dasharray="150.8 150.8" transform="rotate(-90)"/>
+    <text y="3.5" class="mono pct">100%</text><text y="48" class="mono cap">LANG SHARE</text>
   </g>
   <path class="plate" d="M24,210 H376 L390,224 V346 H24 Z"/>
   <rect x="24" y="210" width="3" height="136" fill="#D9D9D9"/>
@@ -55,7 +66,7 @@
   <rect x="42" y="300" width="7" height="7" fill="#D9D9D9"/><text x="56" y="307" class="mono lang">JAVASCRIPT</text>
   <text x="42" y="331" class="mono meta">★ 0  ·  updated 4mo ago</text>
   <g transform="translate(342 286)">
-    <circle r="33" class="tick"/><circle r="24" class="track"/><circle r="24" class="arc" stroke="#D9D9D9" stroke-dasharray="79.9 150.8" transform="rotate(-90)"/>
+    <circle r="33" class="tick"/><circle r="24" class="track"/><circle r="24" class="arc" stroke="#D9D9D9" stroke-dasharray="80.3 150.8" transform="rotate(-90)"/>
     <text y="3.5" class="mono pct">53%</text><text y="48" class="mono cap">LANG SHARE</text>
   </g>
   <path class="plate" d="M410,210 H762 L776,224 V346 H410 Z"/>
@@ -67,7 +78,7 @@
   <rect x="428" y="306" width="7" height="7" fill="#D9D9D9"/><text x="442" y="313" class="mono lang">JAVASCRIPT</text>
   <text x="428" y="331" class="mono meta">★ 0  ·  updated 9mo ago</text>
   <g transform="translate(728 286)">
-    <circle r="33" class="tick"/><circle r="24" class="track"/><circle r="24" class="arc" stroke="#D9D9D9" stroke-dasharray="138.7 150.8" transform="rotate(-90)"/>
+    <circle r="33" class="tick"/><circle r="24" class="track"/><circle r="24" class="arc" stroke="#D9D9D9" stroke-dasharray="139.1 150.8" transform="rotate(-90)"/>
     <text y="3.5" class="mono pct">92%</text><text y="48" class="mono cap">LANG SHARE</text>
   </g>
 </svg>

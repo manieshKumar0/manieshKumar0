@@ -1,9 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-label="Repo galaxy for manieshKumar0">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#353535"/>
-      <stop offset="1" stop-color="#284B63"/>
-    </linearGradient>
     <radialGradient id="core" cx="50%" cy="50%" r="50%">
       <stop offset="0" stop-color="#8fc9cb" stop-opacity=".7"/>
       <stop offset=".4" stop-color="#3C6E71" stop-opacity=".35"/>
@@ -20,9 +16,23 @@
     .pulse{animation:pulse 3.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
     .pulse2{animation:pulse 3.4s ease-out infinite;animation-delay:1.7s;transform-box:fill-box;transform-origin:center}
     @keyframes pulse{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.4);opacity:0}}
+      @media (prefers-color-scheme: light){
+      [fill="#FFFFFF"]{fill:#1f2328}
+      [fill="#D9D9D9"]{fill:#57606a}
+      [fill="#8fc9cb"]{fill:#1f6f73}
+      [stroke="#D9D9D9"]{stroke:#6e7781}
+      [stroke="#FFFFFF"]{stroke:#6e7781}
+      [stroke="#353535"]{stroke:#FFFFFF}
+      .ttl,.pct{fill:#1f2328}
+      .dsc,.meta,.cap,.lang{fill:#57606a}
+      .no{fill:#1f6f73}
+      .track,.tick{stroke:#6e7781}
+      .plate{fill:#000000;fill-opacity:.03;stroke:#6e7781}
+      .wave{stroke:#1f6f73}
+    }
   </style>
 
-  <path d="M1,1 H781 L799,19 V319 H19 L1,301 Z" fill="url(#bg)" stroke="#D9D9D9" stroke-opacity=".35"/>
+  <path d="M1,1 H781 L799,19 V319 H19 L1,301 Z" fill="none" stroke="#D9D9D9" stroke-opacity=".35"/>
 
   <text x="36" y="50" class="mono" font-size="9" letter-spacing="3" fill="#8fc9cb">01 / REPO GALAXY</text>
   <text x="36" y="86" class="disp" font-size="24" font-weight="700" fill="#FFFFFF">@manieshKumar0</text>
@@ -34,13 +44,13 @@
   <text x="36" y="204" class="mono" font-size="9" letter-spacing="3" fill="#8fc9cb">ORBITS</text>
   <g class="mono" font-size="10.5">
     <rect x="36" y="215" width="7" height="7" fill="#4f9a9e"/><text x="52" y="222" fill="#FFFFFF" font-weight="700">Python</text><text x="250" y="222" text-anchor="end" fill="#D9D9D9">65%</text>
-    <rect x="36" y="228" width="214" height="2" fill="#FFFFFF" fill-opacity=".12"/><rect x="36" y="228" width="138.2" height="2" fill="#4f9a9e"/>
-    <rect x="36" y="239" width="7" height="7" fill="#D9D9D9"/><text x="52" y="246" fill="#FFFFFF" font-weight="700">JavaScript</text><text x="250" y="246" text-anchor="end" fill="#D9D9D9">24%</text>
-    <rect x="36" y="252" width="214" height="2" fill="#FFFFFF" fill-opacity=".12"/><rect x="36" y="252" width="52.1" height="2" fill="#D9D9D9"/>
-    <rect x="36" y="263" width="7" height="7" fill="#6f9bb9"/><text x="52" y="270" fill="#FFFFFF" font-weight="700">CSS</text><text x="250" y="270" text-anchor="end" fill="#D9D9D9">10%</text>
-    <rect x="36" y="276" width="214" height="2" fill="#FFFFFF" fill-opacity=".12"/><rect x="36" y="276" width="21.5" height="2" fill="#6f9bb9"/>
-    <rect x="36" y="287" width="7" height="7" fill="#FFFFFF"/><text x="52" y="294" fill="#FFFFFF" font-weight="700">HTML</text><text x="250" y="294" text-anchor="end" fill="#D9D9D9">1%</text>
-    <rect x="36" y="300" width="214" height="2" fill="#FFFFFF" fill-opacity=".12"/><rect x="36" y="300" width="2.3" height="2" fill="#FFFFFF"/>
+    <rect x="36" y="228" width="214" height="2" fill="#FFFFFF" fill-opacity=".12"/><rect x="36" y="228" width="139.7" height="2" fill="#4f9a9e"/>
+    <rect x="36" y="239" width="7" height="7" fill="#D9D9D9"/><text x="52" y="246" fill="#FFFFFF" font-weight="700">JavaScript</text><text x="250" y="246" text-anchor="end" fill="#D9D9D9">21%</text>
+    <rect x="36" y="252" width="214" height="2" fill="#FFFFFF" fill-opacity=".12"/><rect x="36" y="252" width="44.7" height="2" fill="#D9D9D9"/>
+    <rect x="36" y="263" width="7" height="7" fill="#6f9bb9"/><text x="52" y="270" fill="#FFFFFF" font-weight="700">CSS</text><text x="250" y="270" text-anchor="end" fill="#D9D9D9">13%</text>
+    <rect x="36" y="276" width="214" height="2" fill="#FFFFFF" fill-opacity=".12"/><rect x="36" y="276" width="28.1" height="2" fill="#6f9bb9"/>
+    <rect x="36" y="287" width="7" height="7" fill="#FFFFFF"/><text x="52" y="294" fill="#FFFFFF" font-weight="700">HTML</text><text x="250" y="294" text-anchor="end" fill="#D9D9D9"><1%</text>
+    <rect x="36" y="300" width="214" height="2" fill="#FFFFFF" fill-opacity=".12"/><rect x="36" y="300" width="2.0" height="2" fill="#FFFFFF"/>
   </g>
 
   <g fill="none">
@@ -85,15 +95,15 @@
   </g>
   <g>
     <circle class="pulse" cx="640" cy="120" r="4.5" fill="none" stroke="#4f9a9e"/><circle cx="640" cy="120" r="4.5" fill="#4f9a9e"/>
-    <circle class="pulse2" cx="470" cy="110" r="4.5" fill="none" stroke="#8fc9cb"/><circle cx="470" cy="110" r="4.5" fill="#8fc9cb"/>
+    <circle class="pulse2" cx="470" cy="110" r="4.5" fill="none" stroke="#4f9a9e"/><circle cx="470" cy="110" r="4.5" fill="#4f9a9e"/>
     <circle class="pulse" cx="625" cy="215" r="4.5" fill="none" stroke="#D9D9D9"/><circle cx="625" cy="215" r="4.5" fill="#D9D9D9"/>
     <circle class="pulse2" cx="500" cy="215" r="4.5" fill="none" stroke="#D9D9D9"/><circle cx="500" cy="215" r="4.5" fill="#D9D9D9"/>
   </g>
   <g class="mono">
-    <text x="694" y="64" text-anchor="start" font-size="10" font-weight="700" fill="#FFFFFF">MalwareGuard-XAI</text>
+    <text x="694" y="64" text-anchor="start" font-size="10" font-weight="700" fill="#FFFFFF">manieshKumar0</text>
     <text x="694" y="76" text-anchor="start" font-size="8.5" fill="#D9D9D9" fill-opacity=".7">Python · ★ 0</text>
-    <text x="416" y="60" text-anchor="end" font-size="10" font-weight="700" fill="#FFFFFF">manieshKumar0</text>
-    <text x="416" y="72" text-anchor="end" font-size="8.5" fill="#D9D9D9" fill-opacity=".7">no code · ★ 0</text>
+    <text x="416" y="60" text-anchor="end" font-size="10" font-weight="700" fill="#FFFFFF">MalwareGuard-XAI</text>
+    <text x="416" y="72" text-anchor="end" font-size="8.5" fill="#D9D9D9" fill-opacity=".7">Python · ★ 0</text>
     <text x="680" y="272" text-anchor="start" font-size="10" font-weight="700" fill="#FFFFFF">PORTFOLIO</text>
     <text x="680" y="284" text-anchor="start" font-size="8.5" fill="#D9D9D9" fill-opacity=".7">JavaScript · ★ 0</text>
     <text x="448" y="272" text-anchor="end" font-size="10" font-weight="700" fill="#FFFFFF">LearningProjects</text>
