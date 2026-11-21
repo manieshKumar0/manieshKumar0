@@ -28,10 +28,9 @@
   </style>
   <path d="M1,1 H781 L799,19 V149 H19 L1,131 Z" fill="none"/>
   <path d="M1,1 H781 L799,19 V149 H19 L1,131 Z" fill="none" stroke="#D9D9D9" stroke-opacity=".35"/>
-  <text x="36" y="38" class="mono" font-size="9" letter-spacing="3" fill="#8fc9cb">PROFILE · 001 · FRONTEND / FULL-STACK</text>
   <text x="36" y="84" class="disp" font-size="34.0" font-weight="700" letter-spacing="6.0" fill="#FFFFFF">MANISH KUMAR PASWAN</text>
   <rect x="36" y="102" width="26" height="2" fill="#3C6E71"/>
-  <text x="72" y="107" class="disp" font-size="14" fill="#D9D9D9">Frontend or full-stack engineer</text>
+  <text x="72" y="107" class="disp" font-size="14" fill="#D9D9D9">AI/ML Engineer</text>
   <line x1="36" y1="130" x2="764" y2="130" stroke="#D9D9D9" stroke-opacity=".35" stroke-width="7" stroke-dasharray="1 9"/>
   <line x1="36" y1="130" x2="764" y2="130" stroke="#D9D9D9" stroke-opacity=".7" stroke-width="12" stroke-dasharray="1.5 48.5"/>
   <polyline points="615,46 662,66 702,42 738,80 684,98 662,66" fill="none" stroke="#D9D9D9" stroke-opacity=".4" stroke-dasharray="3 3"/>
