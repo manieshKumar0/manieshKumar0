@@ -94,16 +94,16 @@
     <line x1="500" y1="215" x2="452" y2="268"/>
   </g>
   <g>
-    <circle class="pulse" cx="640" cy="120" r="4.5" fill="none" stroke="#4f9a9e"/><circle cx="640" cy="120" r="4.5" fill="#4f9a9e"/>
-    <circle class="pulse2" cx="470" cy="110" r="4.5" fill="none" stroke="#6f9bb9"/><circle cx="470" cy="110" r="4.5" fill="#6f9bb9"/>
+    <circle class="pulse" cx="640" cy="120" r="4.5" fill="none" stroke="#6f9bb9"/><circle cx="640" cy="120" r="4.5" fill="#6f9bb9"/>
+    <circle class="pulse2" cx="470" cy="110" r="4.5" fill="none" stroke="#4f9a9e"/><circle cx="470" cy="110" r="4.5" fill="#4f9a9e"/>
     <circle class="pulse" cx="625" cy="215" r="4.5" fill="none" stroke="#6f9bb9"/><circle cx="625" cy="215" r="4.5" fill="#6f9bb9"/>
     <circle class="pulse2" cx="500" cy="215" r="4.5" fill="none" stroke="#FFFFFF"/><circle cx="500" cy="215" r="4.5" fill="#FFFFFF"/>
   </g>
   <g class="mono">
-    <text x="694" y="64" text-anchor="start" font-size="10" font-weight="700" fill="#FFFFFF">PulseWave</text>
-    <text x="694" y="76" text-anchor="start" font-size="8.5" fill="#D9D9D9" fill-opacity=".7">Kotlin · ★ 0</text>
-    <text x="416" y="60" text-anchor="end" font-size="10" font-weight="700" fill="#FFFFFF">manieshKumar0</text>
-    <text x="416" y="72" text-anchor="end" font-size="8.5" fill="#D9D9D9" fill-opacity=".7">Python · ★ 0</text>
+    <text x="694" y="64" text-anchor="start" font-size="10" font-weight="700" fill="#FFFFFF">manieshKumar0</text>
+    <text x="694" y="76" text-anchor="start" font-size="8.5" fill="#D9D9D9" fill-opacity=".7">Python · ★ 0</text>
+    <text x="416" y="60" text-anchor="end" font-size="10" font-weight="700" fill="#FFFFFF">PulseWave</text>
+    <text x="416" y="72" text-anchor="end" font-size="8.5" fill="#D9D9D9" fill-opacity=".7">Kotlin · ★ 0</text>
     <text x="680" y="272" text-anchor="start" font-size="10" font-weight="700" fill="#FFFFFF">MalwareGuard-XAI</text>
     <text x="680" y="284" text-anchor="start" font-size="8.5" fill="#D9D9D9" fill-opacity=".7">Python · ★ 0</text>
     <text x="448" y="272" text-anchor="end" font-size="10" font-weight="700" fill="#FFFFFF">PORTFOLIO</text>
